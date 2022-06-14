@@ -7,6 +7,9 @@ function fAA () {
     180
     )
 }
+input.onGesture(Gesture.LogoUp, function () {
+    basic.showNumber(pins.analogReadPin(AnalogPin.P0))
+})
 input.onButtonPressed(Button.A, function () {
     if (aa == 0) {
     	
@@ -29,4 +32,33 @@ input.onButtonPressed(Button.B, function () {
 })
 let aa = 0
 aa = 90
-basic.showString("Ps 826")
+basic.showString("Pi")
+basic.showLeds(`
+    . # # # .
+    . # . # .
+    . # . # .
+    . # . # .
+    . # # # .
+    `)
+basic.showString("Ps ")
+basic.showLeds(`
+    . # # # .
+    . # . # .
+    . # # # .
+    . # . # .
+    . # # # .
+    `)
+basic.showLeds(`
+    # . # # #
+    # . . . #
+    # . # # #
+    # . # . .
+    # . # # #
+    `)
+basic.showLeds(`
+    # . # . .
+    # . # . .
+    # . # # #
+    # . # . #
+    # . # # #
+    `)
