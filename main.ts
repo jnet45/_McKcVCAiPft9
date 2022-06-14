@@ -32,33 +32,5 @@ input.onButtonPressed(Button.B, function () {
 })
 let aa = 0
 aa = 90
-basic.showString("Pi")
-basic.showLeds(`
-    . # # # .
-    . # . # .
-    . # . # .
-    . # . # .
-    . # # # .
-    `)
-basic.showString("Ps ")
-basic.showLeds(`
-    . # # # .
-    . # . # .
-    . # # # .
-    . # . # .
-    . # # # .
-    `)
-basic.showLeds(`
-    # . # # #
-    # . . . #
-    # . # # #
-    # . # . .
-    # . # # #
-    `)
-basic.showLeds(`
-    # . # . .
-    # . # . .
-    # . # # #
-    # . # . #
-    # . # # #
-    `)
+basic.showString("Pi0")
+basic.showString("Ps826 ")
